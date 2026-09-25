@@ -1,1 +1,6 @@
 test
+
+- group6_get_stock_quote(symbol): wraps GET /api/stocks/quote?symbol= and returns real-time or recent price quote metrics (current price, day change, high, low, volume) for MAANG stocks (META, AAPL, AMZN, NFLX, GOOGL).
+    - group6_get_stock_history(symbol, timeframe): wraps GET /api/stocks/history?symbol=&timeframe= and returns historical price performance time-series data for a specific stock.
+    - group6_get_company_profile(symbol): wraps GET /api/stocks/profile?symbol= and returns company profile details, industry sector, and fundamental metrics for a MAANG company.
+    - group6_get_maang_overview(): wraps GET /api/stocks/overview and returns a consolidated summary matrix of all MAANG stocks tracked by the application.
