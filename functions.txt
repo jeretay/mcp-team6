@@ -36,3 +36,7 @@ CONTEXT: Deployed on Vercel from GitHub. Environment variables already in use: G
 
 
 CONTEXT: For now MCP_SERVERS is https://fin-app-v1-tau.vercel.app/api/mcp,https://mcp.alphavantage.co/mcp, https://mcp.twelvedata.com/mcp and it lives in AI Studio's Secrets for the preview and in Vercel's Environment Variables for the live site, beside GEMINI_API_KEY.
+
+AQ.Ab8RN6KI6pb0PWhF9r4Jf6m5vkw7gWoYuN6Cf6X-LHfl1-0fVw
+AQ.Ab8RN6LqTuJAjDJkQ69cI6NoFDX0TaJ6d_uSP0UlEIS5bOLC1w
+
