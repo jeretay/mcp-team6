@@ -29,3 +29,10 @@ OUTPUT:
 GUARDRAILS: Read-only tools only: nothing that writes, sends, deletes or spends. Never put a key, token or password, or any part of one, in a tool result, a description or a log; keys stay in process.env. No database and no login. Leave the existing routes and screens as they are.
 
 CONTEXT: Deployed on Vercel from GitHub. Environment variables already in use: GEMINI_API_KEY. Other teams' agents will call https://fin-app-v1-tau.vercel.app/api/mcp through the Gemini SDK's mcpToTool, which speaks MCP protocol 2025-11-25 over Streamable HTTP.
+
+
+
+
+
+
+CONTEXT: For now MCP_SERVERS is https://fin-app-v1-tau.vercel.app/api/mcp,https://mcp.alphavantage.co/mcp, https://mcp.twelvedata.com/mcp and it lives in AI Studio's Secrets for the preview and in Vercel's Environment Variables for the live site, beside GEMINI_API_KEY.
