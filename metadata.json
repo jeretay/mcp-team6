@@ -1,0 +1,6 @@
+{
+  "name": "MCP Team 6 Financial Server",
+  "description": "Streamable HTTP MCP Server and MAANG stock analytics dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
